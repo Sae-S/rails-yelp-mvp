@@ -10,7 +10,7 @@ puts 'Cleaning the db...'
 Restaurant.destroy_all
 
 puts 'Creating Restaurants...'
-10.times do
+5.times do
   Restaurant.create!(
     name: Faker::Creature::Dog.name,
     address: Faker::Address.street_address,

@@ -1,0 +1,5 @@
+<div class="container">
+  <h1>Update <%= @restaurant.name%></h1>
+  <%= render 'restaurants/form', restaurant: @restaurant%>
+  <p><%= link_to '< Back', restaurant_path(@restaurant), class: 'btn-light' %></p>
+</div>
